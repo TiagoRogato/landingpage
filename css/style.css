@@ -724,6 +724,7 @@ button {
 
 .hero__slide {
   position: relative;
+  overflow: hidden;
 }
 .hero__slide img {
   width: 100%;
@@ -731,6 +732,7 @@ button {
   min-height: 280px;
   max-height: 500px;
   object-fit: cover;
+  display: block;
 }
 @media (min-width: 1200px) {
   .hero__slide img {
@@ -829,6 +831,13 @@ button {
 
 .heroCarousel {
   position: relative;
+  min-height: 280px;
+  background: rgb(38, 37, 51);
+}
+@media (min-width: 1200px) {
+  .heroCarousel {
+    min-height: 100vh;
+  }
 }
 
 .heroCarousel .owl-dots {
