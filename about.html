@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rogato Sobre</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500" rel="stylesheet">
+
+	<link rel="stylesheet" href="vendor/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="vendor/cookie/cookie-consent.css">
+	<style>
+		.footer-bg {
+			color: white;
+		}
+
+		.footer-bg h3,
+		.footer-bg a {
+			color: white;
+		}
+
+		/* ===== CURRÍCULO ===== */
+		.resume-section {
+			background: rgba(255,255,255,0.04);
+			border-left: 3px solid #f9cc41;
+			padding: 20px 25px;
+			margin-bottom: 25px;
+		}
+		.resume-section h5 {
+			color: #fff;
+			font-size: 1rem;
+			margin-bottom: 2px;
+		}
+		.resume-section .resume-company {
+			color: #f9cc41;
+			font-size: 0.85rem;
+			margin-bottom: 2px;
+		}
+		.resume-section .resume-period {
+			color: #8f8f8f;
+			font-size: 0.78rem;
+			margin-bottom: 8px;
+		}
+		.resume-section p {
+			margin-bottom: 0;
+			font-size: 0.875rem;
+		}
+		.resume-col-title {
+			color: #f9cc41;
+			font-size: 0.75rem;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			margin-bottom: 1.5rem;
+			padding-bottom: 8px;
+			border-bottom: 1px solid rgba(249,204,65,0.3);
+		}
+		.cert-list li {
+			padding: 5px 0;
+			border-bottom: 1px solid rgba(255,255,255,0.06);
+			font-size: 0.85rem;
+		}
+		.cert-list li:last-child { border-bottom: none; }
+		.cert-list li span {
+			color: #f9cc41;
+			font-size: 0.75rem;
+			display: block;
+		}
+		.btn-download-cv {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			background: #f9cc41;
+			color: #262533;
+			font-weight: 500;
+			padding: 10px 24px;
+			border: 2px solid #f9cc41;
+			text-transform: uppercase;
+			font-size: 0.8rem;
+			transition: all .3s;
+		}
+		.btn-download-cv:hover {
+			background: transparent;
+			color: #f9cc41;
+			text-decoration: none;
+		}
+		/* ===== FIM CURRÍCULO ===== */
+
+		.skills-container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 25px;
+			margin-top: 20px;
+		}
+
+		.skill-category h4,
+		.skill-category-title {
+			color: #262533;
+			font-size: 1.2rem;
+			font-weight: 500;
+			margin-bottom: 0.75rem;
+		}
+
+		.skill-category p {
+			color: #262533;
+			font-size: 1rem;
+			line-height: 1.6;
+			margin-bottom: 0;
+		}
+
+		.tech-icons {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			align-items: center;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- ================Offcanvus Menu Area =================-->
+	<div class="side_menu">
+		<ul class="list menu_right">
+			<li>
+				<a href="index.html">Início</a>
+			</li>
+			<li>
+				<a href="about.html">Sobre</a>
+			</li>
+			<li>
+				<a href="projects.html">Projetos</a>
+			</li>
+			<li>
+				<a href="service.html">Serviços</a>
+			</li>
+			<!--<li>
+				<a href="#">Páginas</a>
+				<ul class="list">
+					<li>
+						<a href="elements.html">Elementos</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Blog</a>
+				<ul class="list">
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="single-blog.html">Detalhes do Blog</a>
+					</li>
+				</ul>
+			</li>-->
+			<li>
+				<a href="contact.html">Contato</a>
+			</li>
+		</ul>
+	</div>
+	<!--================End Offcanvus Menu Area =================-->
+
+	<!--================Canvus Menu Area =================-->
+	<div class="canvus_menu">
+		<div class="container">
+			<div class="float-right">
+				<div class="toggle_icon" title="Barra de Menu">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Canvus Menu Area =================-->
+	<header class="hero-banner project-bg">
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.png" alt="">
+		</a>
+		<div class="container">
+			<h2 class="section-intro__subtitle">Sobre Nós</h2>
+			<div class="btn-group breadcrumb">
+				<a href="index.html" class="btn">Início</a>
+				<span class="btn btn--rightBorder">Sobre</span>
+			</div>
+		</div>
+	</header>
+
+	<section class="about section-margin mb-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5">
+					<div class="about__img text-center text-md-left mb-5 mb-md-0">
+						<img class="img-fluid" src="img/about.png" alt="">
+						<a href="#/" class="about__img__date text-center">
+							<h3>+10</h3>
+							<p>Anos <br> Criando</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7 pl-xl-5">
+					<div class="section-intro">
+						<h4 class="section-intro__title">Sobre Mim</h4>
+						<h2 class="section-intro__subtitle">Estamos criando <br> Coisas Incríveis Desde o Início</h2>
+					</div>
+					<p>Meu nome é Tiago Rogato da Silveira e tenho mais de 15 anos de experiência na área de Tecnologia
+						da Informação e Análise de Dados. Ao longo da minha trajetória, construí uma carreira sólida
+						unindo infraestrutura de TI, desenvolvimento e Business Intelligence, sempre com o mesmo
+						objetivo: transformar dados em insights estratégicos que geram valor real para pessoas e
+						empresas.</p>
+
+					<p>Desde cedo, descobri que minha vocação era resolver problemas por meio da tecnologia. Comecei
+						atuando em suporte técnico e gestão de infraestrutura, o que me permitiu desenvolver uma visão
+						completa sobre ambientes de TI e suas demandas. Essa base foi essencial para dar os próximos
+						passos, expandindo minha atuação para automação de processos, análise de dados e projetos de
+						inteligência de negócios.</p>
+
+					<p>Hoje, sou reconhecido por minha capacidade de integrar tecnologia e estratégia. Desenvolvi
+						Hoje, sou reconhecido por minha capacidade de integrar tecnologia e estratégia. Desenvolvi
+						projetos que otimizaram operações, como a automação de lançamentos de produção com Python, que
+						reduziu o tempo de execução em mais de 40%, além da criação de painéis de Business Intelligence
+						em Power BI, permitindo que gestores tomem decisões rápidas e embasadas em dados confiáveis.</p>
+
+					<p>Minha atuação não se limita apenas ao aspecto técnico. Acredito que a verdadeira transformação
+						acontece quando a tecnologia é aplicada de forma humana e estratégica, considerando as pessoas e
+						os processos envolvidos. Por isso, também invisto em competências de liderança, comunicação e
+						docência, formando equipes mais preparadas e ajudando profissionais a enxergar nos dados uma
+						ferramenta poderosa para inovar e crescer.</p>
+
+					<p>Além da experiência prática, mantenho meu compromisso com a aprendizagem contínua. Atualmente,
+						estou em formação em um MBA em Business Intelligence e em duas pós-graduações: Segurança de
+						Redes e Docência em Sistemas de Informação. Essa jornada acadêmica me ajuda a unir teoria e
+						prática, expandindo minha visão sobre como dados, segurança e educação caminham juntos na
+						transformação digital das organizações.</p>
+
+					<p>Fora do ambiente corporativo, sou entusiasta de novas tecnologias, inovação e desenvolvimento de
+						soluções que simplifiquem a vida das pessoas. Gosto de compartilhar conhecimentos, escrever
+						sobre tecnologia e contribuir para comunidades técnicas. Acredito que a troca de experiências é
+						um dos motores mais poderosos para o crescimento profissional e pessoal.</p>
+
+					<p>Este espaço foi criado para que você conheça melhor minha trajetória, meus projetos e minhas
+						ideias. Aqui, compartilho um pouco do meu trabalho com Power BI, Python, SQL, automação de
+						processos e estratégias de BI, além de insights sobre liderança e transformação digital.</p>
+
+					<p>Se você é recrutador, profissional da área de tecnologia, ou apenas alguém curioso sobre o poder
+						dos dados, convido você a explorar minha página. Tenho certeza de que encontrará cases,
+						experiências e reflexões que mostram como a tecnologia, quando bem aplicada, pode gerar impacto
+						positivo e resultados concretos.</p>
+					<p>Além do código, sou um grande apreciador de cervejas artesanais, especialmente IPAs! Se você
+						também é fã, podemos trocar uma ideia sobre o assunto!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== SEÇÃO CURRÍCULO ===== -->
+	<section class="section-margin mt-0 mb-5">
+		<div class="container">
+
+			<!-- Título + Botão Download -->
+			<div class="row align-items-center mb-5">
+				<div class="col-md-8">
+					<div class="section-intro">
+						<h4 class="section-intro__title">Trajetória</h4>
+						<h2 class="section-intro__subtitle">Experiência & Formação</h2>
+					</div>
+				</div>
+				<div class="col-md-4 text-md-right mt-3 mt-md-0">
+					<a href="md_projetos/curriculo_tiago_rogato.pdf" download class="btn-download-cv">
+						<i class="fas fa-file-pdf"></i> Baixar Currículo PDF
+					</a>
+				</div>
+			</div>
+
+			<!-- Experiência + Formação -->
+			<div class="row">
+				<!-- Coluna Experiência -->
+				<div class="col-lg-6 mb-5 mb-lg-0">
+					<p class="resume-col-title"><i class="ti-briefcase mr-2"></i>Experiência Profissional</p>
+
+					<div class="resume-section">
+						<h5>Analista de Sistemas – Superintendente de TI</h5>
+						<p class="resume-company">Indústria Madeireira & Reflorestamento</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Jun 2011 – Presente</p>
+						<p>Gestão de infraestrutura de TI, redes, segurança da informação, desenvolvimento web, automação de processos e Business Intelligence.</p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Analista de Suporte</h5>
+						<p class="resume-company">Empresa de Tecnologia & Suporte em TI</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Set 2009 – Jun 2011</p>
+						<p>Suporte técnico, administração de redes LAN/Wi-Fi, servidores Windows e Linux, documentação técnica.</p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Técnico em Informática</h5>
+						<p class="resume-company">Comércio & Serviços em Informática</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Set 2007 – Jun 2011</p>
+						<p>Manutenção de hardware/software, redes LAN, reestruturação de VLANs em ambiente cooperativo agroindustrial.</p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Encarregado de Frotas / Logística</h5>
+						<p class="resume-company">Setor de Transporte & Logística</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Jan 1999 – Jan 2006</p>
+						<p>Gestão de frota, análise de custos, planejamento de rotas e indicadores de desempenho.</p>
+					</div>
+				</div>
+
+				<!-- Coluna Formação + Certificações -->
+				<div class="col-lg-6">
+					<p class="resume-col-title"><i class="ti-graduation-cap mr-2"></i>Formação Acadêmica</p>
+
+					<div class="resume-section">
+						<h5>MBA em Business Intelligence</h5>
+						<p class="resume-company">FACUVALE – Faculdade dos Vales EAD</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Nov 2024 – Jun 2025 &nbsp;·&nbsp; 720 h/a &nbsp;<span style="color:#f9cc41">● Em andamento</span></p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Pós-graduação – Docência em Sistemas de Informação</h5>
+						<p class="resume-company">FACUVALE – Faculdade dos Vales EAD</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Nov 2024 – Jun 2025 &nbsp;·&nbsp; 700 h/a &nbsp;<span style="color:#f9cc41">● Em andamento</span></p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Pós-graduação – Segurança de Redes de Computadores</h5>
+						<p class="resume-company">FACUVALE – Faculdade dos Vales EAD</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Nov 2024 – Mar 2025 &nbsp;<span style="color:#f9cc41">● Em andamento</span></p>
+					</div>
+
+					<div class="resume-section">
+						<h5>Análise e Desenvolvimento de Sistemas</h5>
+						<p class="resume-company">Centro Universitário Guairacá</p>
+						<p class="resume-period"><i class="ti-calendar mr-1"></i>Abr 2012 – Out 2015</p>
+					</div>
+
+					<!-- Certificações -->
+					<p class="resume-col-title mt-4"><i class="ti-award mr-2"></i>Certificações em Destaque</p>
+					<ul class="cert-list">
+						<li>Governança e Gestão de TI (COBIT/BPM) <span>Pensar Cursos · 2025 · 20h</span></li>
+						<li>Governança de Dados & SQL <span>Pensar Cursos · 2025 · 40h</span></li>
+						<li>Excel, Power BI & Inteligência Artificial <span>2025</span></li>
+						<li>LGPD na Prática + Gestão Pública <span>Sebrae · 2025</span></li>
+						<li>Liderança – Times de Alta Performance <span>SEBRAE</span></li>
+						<li>PNL – Programação Neurolinguística <span>Conquer Business School · 10h</span></li>
+						<li>Negociação – Modelo Harvard <span>Conquer Business School</span></li>
+						<li>GitHub Copilot & IA para Programação <span>Escola do Trabalhador 4.0 / Microsoft · 2025 · 8h</span></li>
+						<li>Python na Prática – Automação de Produção <span>Imersão · 8h</span></li>
+						<li>SAP para Iniciantes <span>Grandes Projetos · 2024 · 48h</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===== FIM SEÇÃO CURRÍCULO ===== -->
+
+	<section class="overview section-margin mt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+					<div class="media align-items-center overview__single">
+						<span class="overview__single__icon"><i class="ti-crown"></i></span>
+						<div class="media-body">
+							<h3>100+</h3>
+							<p>Projetos concluídos</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+					<div class="media align-items-center overview__single">
+						<span class="overview__single__icon"><i class="ti-face-smile"></i></span>
+						<div class="media-body">
+							<h3>50+</h3>
+							<p>Clientes Satisfeitos</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+					<div class="media align-items-center overview__single">
+						<span class="overview__single__icon"><i class="ti-user"></i></span>
+						<div class="media-body">
+							<h3>263+</h3>
+							<p>Interação Humana</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-xl-0">
+					<div class="media align-items-center overview__single">
+						<span class="overview__single__icon"><i class="ti-gift"></i></span>
+						<div class="media-body">
+							<h3>2000+</h3>
+							<p>Xícaras de Café</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="tips tips-bg">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-7 mb-4 mb-lg-0">
+					<h2 class="section-intro__subtitle">Minhas Habilidades e Ferramentas</h2>
+					<div class="skills-container">
+						<div class="skill-category">
+							<h4>Dados & BI</h4>
+							<p>Power BI, Excel Avançado, SQL, DAX, ETL, Governança de Dados</p>
+						</div>
+						<div class="skill-category">
+							<h4>Desenvolvimento</h4>
+							<p>Python, PHP, HTML, CSS, SQL, GitHub Copilot</p>
+						</div>
+						<div class="skill-category">
+							<h4>Infraestrutura & Redes</h4>
+							<p>Windows Server, Linux, LAN, Wi-Fi, VLANs, VPN WireGuard, Zabbix</p>
+						</div>
+						<div class="skill-category">
+							<h4>Gestão & Governança</h4>
+							<p>COBIT, BPM, LGPD, ANPD, OKRs, Gestão de Projetos de TI</p>
+						</div>
+						<div class="skill-category">
+							<h4>Liderança & Pessoas</h4>
+							<p>Liderança de Equipes, PNL, Negociação Harvard, Escutatória, Docência</p>
+						</div>
+					</div>
+
+					<h4 class="skill-category-title mt-4">Tecnologias</h4>
+					<div class="tech-icons">
+						<img alt="HTML" title="HTML" width="40" height="40"
+							src="img/icones/html5-original.svg" />
+						<img alt="CSS" title="CSS" width="40" height="40"
+							src="img/icones/css3-original.svg" />
+						<img alt="JavaScript" title="JavaScript" width="40" height="40"
+							src="img/icones/javascript-original.svg" />
+						<img alt="TypeScript" title="TypeScript" width="40" height="40"
+							src="img/icones/typescript-original.svg" />
+						<img alt="React" title="React" width="40" height="40"
+							src="img/icones/react-original.svg" />
+						<img alt="Next.js" title="Next.js" width="40" height="40"
+							src="img/icones/nextjs-original.svg" />
+						<img alt="Bootstrap" title="Bootstrap" width="40" height="40"
+							src="img/icones/bootstrap-original.svg" />
+						<img alt="debian" title="debian" width="40" height="40"
+							src="img/icones/debian-original.svg" />
+						<img alt="kali" title="kali" width="40" height="40"
+							src="img/icones/kalilinux-original.svg" />
+						<img alt="grafana" title="grafana" width="40" height="40"
+							src="img/icones/grafana-original-wordmark.svg" />
+						<img alt="PHP" title="PHP" width="40" height="40"
+							src="img/icones/php-original.svg" />
+						<img alt="Laravel" title="Laravel" width="40" height="40"
+							src="img/icones/laravel-original.svg" />
+						<img alt="JQuery" title="JQuery" width="40" height="40"
+							src="img/icones/jquery-original.svg" />
+						<img alt="Git" title="Git" width="40" height="40"
+							src="img/icones/git-original.svg" />
+						<img alt="Python" title="Python" width="40" height="40"
+							src="img/icones/python-original.svg" />
+						<img alt="linux" title="linux" width="40" height="40"
+							src="img/icones/linux-original.svg" />
+						<img alt="postman" title="postman" width="40" height="40"
+							src="img/icones/postman-original.svg" />
+						<img alt="Prometheus" title="Prometheus" width="40" height="40"
+							src="img/icones/prometheus-original.svg" />
+						<img alt="Pi" title="Pi" width="40" height="40"
+							src="img/icones/raspberrypi-original.svg" />
+						<img alt="Arduino" title="Arduino" width="40" height="40"
+							src="img/icones/arduino-original-wordmark.svg" />
+					</div>
+				</div>
+				<div class="col-lg-5 text-center text-lg-right">
+					<a class="btn btn-dark btn--leftBorder btn--rightBorder" href="contact.html">Entre em Contato</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonial section-margin">
+		<div class="container">
+			<div class="section-intro">
+				<h4 class="section-intro__title">EVOLUÇÃO</h4>
+				<h2 class="section-intro__subtitle bottom-border">Habilidades, Ferramentas e Competências</h2>
+			</div>
+
+			<div class="owl-carousel owl-theme testimonialCarousel">
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								<ul>
+									<li>Business Intelligence (planejamento e implantação de soluções)</li>
+									<li>Análise de Dados e criação de insights estratégicos</li>
+									<li>Automação de processos e integração de sistemas</li>
+									<li>Gestão de infraestrutura de TI (Linux e Windows)</li>
+									<li>Liderança de projetos de transformação digital</li>
+								</ul>
+							</blockquote>
+							<h3>🔹 Habilidades Estratégicas</h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								<ul>
+									<li><strong>Power BI</strong> (dashboards interativos, DAX, relatórios estratégicos)</li>
+									<li><strong>Python</strong> (automação de processos, manipulação de kernel Linux)</li>
+									<li><strong>SQL</strong> (consultas otimizadas, ETL, modelagem, phpMyAdmin)</li>
+									<li><strong>Infraestrutura</strong> (Linux, Windows Server, VPN WireGuard, VLANs)</li>
+									<li><strong>Zabbix & Grafana</strong> (monitoramento de sistemas e redes)</li>
+								</ul>
+							</blockquote>
+							<h3>🔹 Ferramentas e Tecnologias</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								<ul>
+									<li>Liderança de equipes e gestão de pessoas</li>
+									<li>Comunicação clara e foco em resultados</li>
+									<li>Capacidade de ensino e mentoria (Docência em TI)</li>
+									<li>Visão estratégica de negócios e inovação</li>
+									<li>Resolução de problemas complexos com adaptabilidade</li>
+								</ul>
+							</blockquote>
+							<h3>🔹 Competências Comportamentais</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 1 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Desenvolvimento de <strong>dashboards corporativos</strong> que permitem decisões
+								rápidas e embasadas em dados.
+							</blockquote>
+							<h3>🔹 Business Intelligence</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 2 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Criação de soluções em <strong>automação com Python</strong>, reduzindo custos e
+								aumentando a produtividade.
+							</blockquote>
+							<h3>🔹 Automação de Processos</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 3 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Administração de servidores, redes e <strong>infraestrutura de TI</strong> com foco em
+								segurança e estabilidade.
+							</blockquote>
+							<h3>🔹 Gestão de Infraestrutura</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 4 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Implantação de boas práticas de <strong>Segurança da Informação</strong> e adequação à
+								<strong>LGPD</strong>.
+							</blockquote>
+							<h3>🔹 Segurança & LGPD</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 5 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Treinamentos e workshops em <strong>Power BI, Python, SQL e TI</strong>, com foco em
+								aplicação prática.
+							</blockquote>
+							<h3>🔹 Treinamentos & Workshops</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Novo 6 -->
+				<div class="item">
+					<div class="media testimonial__slide">
+						<img class="img-fluid mr-4" src="img/testimonial.png" width="120" height="125" alt="">
+						<div class="media-body">
+							<blockquote>
+								Consultoria estratégica para apoiar empresas na <strong>Transformação Digital</strong>
+								com visão data-driven.
+							</blockquote>
+							<h3>🔹 Consultoria Estratégica</h3>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+
+
+
+	  <div id="footer-placeholder"></div>
+
+
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+
+	<script>
+		var testimonialCarousel = $('.testimonialCarousel');
+		testimonialCarousel.owlCarousel({
+			loop: true,
+			margin: 80,
+			startPosition: 2,
+			nav: false,
+			autoplay: true,
+			autoplayTimeout: 5000,
+			autoplayHoverPause: true,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				1000: {
+					items: 2,
+					loop: true
+				}
+			}
+		});
+
+		var dropToggle = $('.menu_right > li').has('ul').children('a');
+		dropToggle.on('click', function () {
+			dropToggle.not(this).closest('li').find('ul').slideUp(200);
+			$(this).closest('li').children('ul').slideToggle(200);
+			return false;
+		});
+
+		$(".toggle_icon").on('click', function () {
+			$('body').toggleClass("open");
+		});
+	</script>
+	<script src="js/footer.js"></script>
+	<script src="vendor/cookie/cookie-consent.js"></script>
+</body>
+
+</html>
