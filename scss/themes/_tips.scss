@@ -1,7 +1,11 @@
 .tips {
 	&-bg {
 		background: $primary-color;
-		padding: 90px 0;
+		padding: 50px 0;
+
+		@media (min-width: 992px) {
+			padding: 90px 0;
+		}
 
 		.section-intro__subtitle {
 			margin-bottom: 20px;

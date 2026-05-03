@@ -110,21 +110,25 @@
 
 .side_menu {
 	position: fixed;
-	right: -29%;
+	right: -75%;
 	top: 0px;
 	height: 100%;
 	background: $charade;
 	width: 100%;
-	max-width: 29%;
+	max-width: 75%;
 	text-align: center;
 	padding-left: 20px;
 	z-index: 2;
 	padding-right: 20px;
 	@include transition();
 	opacity: .95;
-	@media (max-width: 575px) {
-		max-width: 75%;
-		right: -75%;
+	@media (min-width: 576px) {
+		max-width: 50%;
+		right: -50%;
+	}
+	@media (min-width: 992px) {
+		max-width: 29%;
+		right: -29%;
 	}
 	.input-group {
 		display: block;

@@ -2,9 +2,17 @@
 	&-bg {
 		background: url("../img/footer-bg.png") left center no-repeat;
 		background-size: cover;
-		padding-top: 110px;
+		padding-top: 50px;
 		position: relative;
 		z-index: 1;
+
+		@media (min-width: 768px) {
+			padding-top: 80px;
+		}
+
+		@media (min-width: 992px) {
+			padding-top: 110px;
+		}
 
 		&:after {
 			content: '';
@@ -38,7 +46,11 @@
 
 	&__bottom {
 		padding: 1.3rem 0;
-		margin-top: 65px;
+		margin-top: 30px;
+
+		@media (min-width: 992px) {
+			margin-top: 65px;
+		}
 
 		p {
 			margin-bottom: 0;
@@ -52,9 +64,5 @@
 			border-top: 1px solid rgb(51, 51, 51);
 		}
 	}
-	.footer__linkkk li {
-  margin-bottom: .8rem; }
-  .footer__linkk kli a {
-    color: #ffffff;
-    text-transform: capitalize; }
+
 }

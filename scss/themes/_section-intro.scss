@@ -26,9 +26,13 @@
 	&__subtitle {
 		font-family: 'Oswald', sans-serif;
 		font-weight: 300;
-		font-size: 2.625rem;
+		font-size: 1.75rem;
 		color: $white;
 		margin-bottom: 1.5rem;
+
+		@media (min-width: 768px) {
+			font-size: 2.625rem;
+		}
 
 		&.bottom-border {
 			padding-bottom: 30px;
