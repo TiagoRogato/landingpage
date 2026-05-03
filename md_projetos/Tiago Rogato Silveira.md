@@ -4,8 +4,8 @@
 *   Telefone: +5542999152224
 *   Email: tiago_rogato@msn.com
 *   LinkedIn: [https://www.linkedin.com/in/tiagorogato/](https://www.linkedin.com/in/tiagorogato/)
-*   GitHub: [https://github.com/TRogato](https://github.com/TRogato)
-*   Landing Page: [https://trogato.github.io/landingpage/](https://trogato.github.io/landingpage/)
+*   GitHub: [https://github.com/TiagoRogato](https://github.com/TiagoRogato)
+*   Landing Page: [https://tiagorogato.github.io/landingpage/](https://tiagorogato.github.io/landingpage/)
 *   Localização: Guarapuava, Paraná, Brasil
 
 ## Resumo Profissional

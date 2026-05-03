@@ -45,9 +45,9 @@ Este projeto permite que o visitante **aceite, rejeite ou personalize** o uso de
    ```
 
 Nome do fluxo
-trogato.github.io
+TiagoRogato.github.io
 URL do fluxo
-https://trogato.github.io/landingpage/
+https://tiagorogato.github.io/landingpage/
 Código do fluxo
 12958408243
 ID da métrica

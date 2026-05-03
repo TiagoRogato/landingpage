@@ -1,12 +1,12 @@
 # 🌐 Landing Page – Tiago Rogato
 
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://trogato.github.io/landingpage/)  
-[![Status](https://img.shields.io/badge/Status-Online-success)](https://trogato.github.io/landingpage/)  
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://tiagorogato.github.io/landingpage/)  
+[![Status](https://img.shields.io/badge/Status-Online-success)](https://tiagorogato.github.io/landingpage/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Bem-vindo(a) ao repositório da **Landing Page de Tiago Rogato**, especialista em **Análise de Dados, BI, Automação e Transformação Digital**.
 
-👉 **Veja online:** [trogato.github.io/landingpage](https://trogato.github.io/landingpage/)
+👉 **Veja online:** [TiagoRogato.github.io/landingpage](https://tiagorogato.github.io/landingpage/)
 
 ---------
 
@@ -42,7 +42,7 @@ Bem-vindo(a) ao repositório da **Landing Page de Tiago Rogato**, especialista e
 
 1. Clonar este repositório:<br>
    ```bash
-   git clone https://github.com/trogato/landingpage.git
+   git clone https://github.com/TiagoRogato/landingpage.git
 
 ✨“Da teoria à constelação de dados — cada insight é uma descoberta.”✨
 

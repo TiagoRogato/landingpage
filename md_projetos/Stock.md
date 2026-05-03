@@ -40,7 +40,7 @@ Banco de Dados: SQLite (padrão)
 ## ⚙️ Como Executar o Projeto
 Clone o repositório
 ```bash
-git clone https://github.com/TRogato/stock.git
+git clone https://github.com/TiagoRogato/stock.git
 cd stock
 Crie e ative um ambiente virtual (opcional)
 ````
@@ -71,7 +71,7 @@ Abra o navegador em: http://127.0.0.1:8000
 
 ## 📝Licença
 
-Este repositório está sob a licença [MIT](https://github.com/TRogato/Trogato/blob/main/LICENSE). Por favor, consulte o arquivo `LICENSE` para mais detalhes.
+Este repositório está sob a licença [MIT](https://github.com/TiagoRogato/TiagoRogato/blob/main/LICENSE). Por favor, consulte o arquivo `LICENSE` para mais detalhes.
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
