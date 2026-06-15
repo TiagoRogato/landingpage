@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b1b1b"/>
+      <stop offset="100%" style="stop-color:#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="code-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9cc41;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#f9cc41;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <!-- Code window -->
+  <rect x="60" y="50" width="680" height="280" rx="6" fill="#1e1e1e" stroke="#444" stroke-width="1"/>
+  <!-- Window dots -->
+  <circle cx="85" cy="72" r="6" fill="#ff5f57"/>
+  <circle cx="108" cy="72" r="6" fill="#ffbd2e"/>
+  <circle cx="131" cy="72" r="6" fill="#28c840"/>
+  <!-- Code lines -->
+  <text x="80" y="105" fill="#777" font-family="monospace" font-size="12">1</text>
+  <text x="80" y="125" fill="#777" font-family="monospace" font-size="12">2</text>
+  <text x="80" y="145" fill="#777" font-family="monospace" font-size="12">3</text>
+  <text x="80" y="165" fill="#777" font-family="monospace" font-size="12">4</text>
+  <text x="80" y="185" fill="#777" font-family="monospace" font-size="12">5</text>
+  <text x="80" y="205" fill="#777" font-family="monospace" font-size="12">6</text>
+  <text x="80" y="225" fill="#777" font-family="monospace" font-size="12">7</text>
+  <text x="80" y="245" fill="#777" font-family="monospace" font-size="12">8</text>
+  <text x="80" y="265" fill="#777" font-family="monospace" font-size="12">9</text>
+  <text x="80" y="285" fill="#777" font-family="monospace" font-size="12">10</text>
+  <text x="80" y="305" fill="#777" font-family="monospace" font-size="12">11</text>
+  <!-- PHP code -->
+  <text x="115" y="105" fill="#569cd6" font-family="monospace" font-size="12">&lt;?php</text>
+  <text x="115" y="125" fill="#c586c0" font-family="monospace" font-size="12">namespace</text>
+  <text x="175" y="125" fill="#4ec9b0" font-family="monospace" font-size="12">App\Http\Controllers;</text>
+  <text x="115" y="145" fill="#dcdcaa" font-family="monospace" font-size="12">class</text>
+  <text x="155" y="145" fill="#4ec9b0" font-family="monospace" font-size="12">LegacyController</text>
+  <text x="280" y="145" fill="#dcdcaa" font-family="monospace" font-size="12">extends</text>
+  <text x="340" y="145" fill="#4ec9b0" font-family="monospace" font-size="12">Controller</text>
+  <text x="115" y="165" fill="#dcdcaa" font-family="monospace" font-size="12">{</text>
+  <text x="135" y="185" fill="#dcdcaa" font-family="monospace" font-size="12">public</text>
+  <text x="185" y="185" fill="#dcdcaa" font-family="monospace" font-size="12">function</text>
+  <text x="245" y="185" fill="#dcdcaa" font-family="monospace" font-size="12">index</text>
+  <text x="280" y="185" fill="#d4d4d4" font-family="monospace" font-size="12">()</text>
+  <text x="115" y="205" fill="#d4d4d4" font-family="monospace" font-size="12">    $data = DB::table(</text>
+  <text fill="#ce9178" font-family="monospace" font-size="12">'usuarios'</text>
+  <text x="310" y="205" fill="#d4d4d4" font-family="monospace" font-size="12">)</text>
+  <text x="115" y="225" fill="#d4d4d4" font-family="monospace" font-size="12">        </text>
+  <text x="125" y="225" fill="#569cd6" font-family="monospace" font-size="12">-&gt;where</text>
+  <text x="165" y="225" fill="#d4d4d4" font-family="monospace" font-size="12">(</text>
+  <text fill="#ce9178" font-family="monospace" font-size="12">'ativo'</text>
+  <text x="210" y="225" fill="#d4d4d4" font-family="monospace" font-size="12">, </text>
+  <text fill="#b5cea8" font-family="monospace" font-size="12">1</text>
+  <text x="225" y="225" fill="#d4d4d4" font-family="monospace" font-size="12">)</text>
+  <text x="115" y="245" fill="#d4d4d4" font-family="monospace" font-size="12">        </text>
+  <text x="125" y="245" fill="#569cd6" font-family="monospace" font-size="12">-&gt;get</text>
+  <text x="155" y="245" fill="#d4d4d4" font-family="monospace" font-size="12">();</text>
+  <text x="115" y="265" fill="#dcdcaa" font-family="monospace" font-size="12">    return</text>
+  <text x="185" y="265" fill="#569cd6" font-family="monospace" font-size="12">view</text>
+  <text x="215" y="265" fill="#d4d4d4" font-family="monospace" font-size="12">(</text>
+  <text fill="#ce9178" font-family="monospace" font-size="12">'home'</text>
+  <text x="255" y="265" fill="#d4d4d4" font-family="monospace" font-size="12">);</text>
+  <text x="115" y="285" fill="#dcdcaa" font-family="monospace" font-size="12">}</text>
+  <text x="115" y="305" fill="#dcdcaa" font-family="monospace" font-size="12">}</text>
+  <!-- Error highlight -->
+  <rect x="110" y="150" width="340" height="24" fill="#f9cc41" fill-opacity="0.08" rx="2"/>
+  <!-- Tool icons -->
+  <!-- PHP badge -->
+  <rect x="620" y="60" width="70" height="22" rx="4" fill="#302b63" stroke="#8892bf" stroke-width="1"/>
+  <text x="655" y="75" text-anchor="middle" fill="#8892bf" font-family="Arial,sans-serif" font-size="10">PHP 7.4</text>
+  <!-- Laravel badge -->
+  <rect x="620" y="88" width="70" height="22" rx="4" fill="#302b63" stroke="#f9532e" stroke-width="1"/>
+  <text x="655" y="103" text-anchor="middle" fill="#f9532e" font-family="Arial,sans-serif" font-size="10">Laravel 5.4</text>
+  <!-- MySQL badge -->
+  <rect x="620" y="116" width="70" height="22" rx="4" fill="#302b63" stroke="#00758f" stroke-width="1"/>
+  <text x="655" y="131" text-anchor="middle" fill="#00758f" font-family="Arial,sans-serif" font-size="10">MySQL</text>
+  <!-- Bottom section - before/after -->
+  <rect x="60" y="360" width="320" height="100" rx="6" fill="#252525" stroke="#ff5f57" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="220" y="382" text-anchor="middle" fill="#ff5f57" font-family="Arial,sans-serif" font-size="11" font-weight="bold">ANTES</text>
+  <text x="80" y="402" fill="#888" font-family="monospace" font-size="11">✗ Namespace App\Model obsoleto</text>
+  <text x="80" y="420" fill="#888" font-family="monospace" font-size="11">✗ Input::get() depreciado</text>
+  <text x="80" y="438" fill="#888" font-family="monospace" font-size="11">✗ Vulnerabilidades npm</text>
+
+  <rect x="420" y="360" width="320" height="100" rx="6" fill="#1a2e1a" stroke="#28c840" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="580" y="382" text-anchor="middle" fill="#28c840" font-family="Arial,sans-serif" font-size="11" font-weight="bold">DEPOIS</text>
+  <text x="440" y="402" fill="#4ecdc4" font-family="monospace" font-size="11">✓ Namespace App\Models corrigido</text>
+  <text x="440" y="420" fill="#4ecdc4" font-family="monospace" font-size="11">✓ request()->all() aplicado</text>
+  <text x="440" y="438" fill="#4ecdc4" font-family="monospace" font-size="11">✓ npm audit fix (137 vuln)</text>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#f9cc41" font-family="Arial,sans-serif" font-size="16" font-weight="bold">DIAGNÓSTICO E CORREÇÃO</text>
+  <text x="400" y="52" text-anchor="middle" fill="#888" font-family="Arial,sans-serif" font-size="11">Sistemas Legados Laravel/PHP · Modernização Segura</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <linearGradient id="ai-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9cc41;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#f9cc41;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <!-- Neural network nodes -->
+  <circle cx="100" cy="250" r="6" fill="#f9cc41" filter="url(#glow)"/>
+  <circle cx="180" cy="180" r="5" fill="#4ecdc4"/>
+  <circle cx="180" cy="320" r="5" fill="#4ecdc4"/>
+  <circle cx="260" cy="130" r="4" fill="#ff6b6b"/>
+  <circle cx="260" cy="250" r="5" fill="#f9cc41"/>
+  <circle cx="260" cy="370" r="4" fill="#ff6b6b"/>
+  <circle cx="340" cy="80" r="3" fill="#fff"/>
+  <circle cx="340" cy="180" r="4" fill="#4ecdc4"/>
+  <circle cx="340" cy="320" r="4" fill="#4ecdc4"/>
+  <circle cx="340" cy="420" r="3" fill="#fff"/>
+  <circle cx="420" cy="130" r="5" fill="#f9cc41" filter="url(#glow)"/>
+  <circle cx="420" cy="250" r="7" fill="#f9cc41" filter="url(#glow)"/>
+  <circle cx="420" cy="370" r="5" fill="#f9cc41" filter="url(#glow)"/>
+  <circle cx="500" cy="180" r="4" fill="#4ecdc4"/>
+  <circle cx="500" cy="320" r="4" fill="#4ecdc4"/>
+  <circle cx="580" cy="130" r="4" fill="#ff6b6b"/>
+  <circle cx="580" cy="250" r="5" fill="#f9cc41"/>
+  <circle cx="580" cy="370" r="4" fill="#ff6b6b"/>
+  <circle cx="660" cy="180" r="5" fill="#4ecdc4"/>
+  <circle cx="660" cy="320" r="5" fill="#4ecdc4"/>
+  <circle cx="700" cy="250" r="6" fill="#f9cc41" filter="url(#glow)"/>
+  <!-- Connections -->
+  <line x1="100" y1="250" x2="180" y2="180" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="100" y1="250" x2="180" y2="320" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="180" y1="180" x2="260" y2="130" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="180" y1="180" x2="260" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="180" y1="320" x2="260" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="180" y1="320" x2="260" y2="370" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="260" y1="130" x2="340" y2="80" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="260" y1="130" x2="340" y2="180" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="260" y1="250" x2="340" y2="180" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="260" y1="250" x2="340" y2="320" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="260" y1="370" x2="340" y2="320" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="260" y1="370" x2="340" y2="420" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="340" y1="180" x2="420" y2="130" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="340" y1="180" x2="420" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="340" y1="320" x2="420" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="340" y1="320" x2="420" y2="370" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="420" y1="250" x2="500" y2="180" stroke="#f9cc41" stroke-width="0.6" stroke-opacity="0.5"/>
+  <line x1="420" y1="250" x2="500" y2="320" stroke="#f9cc41" stroke-width="0.6" stroke-opacity="0.5"/>
+  <line x1="500" y1="180" x2="580" y2="130" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="500" y1="180" x2="580" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="500" y1="320" x2="580" y2="250" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="500" y1="320" x2="580" y2="370" stroke="#4ecdc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="580" y1="130" x2="660" y2="180" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="580" y1="250" x2="660" y2="180" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="580" y1="250" x2="660" y2="320" stroke="#f9cc41" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="580" y1="370" x2="660" y2="320" stroke="#ff6b6b" stroke-width="0.5" stroke-opacity="0.3"/>
+  <!-- Terminal window -->
+  <rect x="130" y="390" width="220" height="30" rx="4" fill="#1a1a2e" stroke="#444" stroke-width="1"/>
+  <text x="140" y="410" fill="#f9cc41" font-family="monospace" font-size="11">$ hermes agent run --diagnose</text>
+  <rect x="450" y="390" width="220" height="30" rx="4" fill="#1a1a2e" stroke="#444" stroke-width="1"/>
+  <text x="460" y="410" fill="#4ecdc4" font-family="monospace" font-size="11">✓ Diagnóstico concluído (0 erros)</text>
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#f9cc41" font-family="Arial,sans-serif" font-size="16" font-weight="bold">IA APLICADA À OPERAÇÃO DE TI</text>
+  <text x="400" y="52" text-anchor="middle" fill="#888" font-family="Arial,sans-serif" font-size="11">Hermes Agent · OpenCode · Automação Inteligente</text>
+  <!-- Badges -->
+  <rect x="310" y="445" width="55" height="20" rx="10" fill="#302b63" stroke="#f9cc41" stroke-width="1"/>
+  <text x="337" y="459" text-anchor="middle" fill="#f9cc41" font-family="Arial,sans-serif" font-size="9">Hermes</text>
+  <rect x="375" y="445" width="55" height="20" rx="10" fill="#302b63" stroke="#4ecdc4" stroke-width="1"/>
+  <text x="402" y="459" text-anchor="middle" fill="#4ecdc4" font-family="Arial,sans-serif" font-size="9">OpenCode</text>
+  <rect x="440" y="445" width="55" height="20" rx="10" fill="#302b63" stroke="#ff6b6b" stroke-width="1"/>
+  <text x="467" y="459" text-anchor="middle" fill="#ff6b6b" font-family="Arial,sans-serif" font-size="9">LLMs</text>
+</svg>
