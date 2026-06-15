@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="server1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#c23152"/>
+    </linearGradient>
+    <linearGradient id="server2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#53d769"/>
+      <stop offset="100%" stop-color="#2ea44f"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#53d769"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)" rx="12"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="white" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="white" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="white" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="white" stroke-width="0.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#f9cc41">MIGRAÇÃO DE PROXY / SQUID</text>
+  <text x="400" y="72" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">Debian 8 → Debian 13 • Squid 6.13 • GoAccess • Alertas</text>
+
+  <!-- Old Server (Debian 8) -->
+  <rect x="50" y="110" width="280" height="160" rx="10" fill="url(#server1)" opacity="0.9"/>
+  <text x="190" y="145" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold" fill="white">❌ LEGADO</text>
+  <text x="190" y="170" text-anchor="middle" font-family="monospace" font-size="13" fill="#ffcccc">Debian 8 (Jessie)</text>
+  <text x="190" y="195" text-anchor="middle" font-family="monospace" font-size="13" fill="#ffcccc">Squid 3.4</text>
+  <text x="190" y="220" text-anchor="middle" font-family="monospace" font-size="13" fill="#ffcccc">172.16.0.1</text>
+  <text x="190" y="250" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ff9999">⚠ Sem suporte • Fim de vida</text>
+
+  <!-- Arrow -->
+  <line x1="340" y1="190" x2="460" y2="190" stroke="url(#arrow)" stroke-width="4" stroke-dasharray="8,4"/>
+  <polygon points="460,180 475,190 460,200" fill="#53d769"/>
+  <text x="400" y="180" text-anchor="middle" font-family="monospace" font-size="11" fill="#53d769">MIGRAÇÃO</text>
+  <text x="400" y="240" text-anchor="middle" font-family="monospace" font-size="10" fill="#666">swap identidade</text>
+
+  <!-- New Server (Debian 13) -->
+  <rect x="470" y="110" width="280" height="160" rx="10" fill="url(#server2)" opacity="0.9"/>
+  <text x="610" y="145" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold" fill="white">✅ NOVO</text>
+  <text x="610" y="170" text-anchor="middle" font-family="monospace" font-size="13" fill="#ccffcc">Debian 13 (Trixie)</text>
+  <text x="610" y="195" text-anchor="middle" font-family="monospace" font-size="13" fill="#ccffcc">Squid 6.13</text>
+  <text x="610" y="220" text-anchor="middle" font-family="monospace" font-size="13" fill="#ccffcc">172.16.0.1</text>
+  <text x="610" y="250" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#99ff99">✓ Suporte ativo • Alta performance</text>
+
+  <!-- Services migrated -->
+  <rect x="50" y="300" width="700" height="170" rx="10" fill="#1e2d4a" opacity="0.8"/>
+  <text x="400" y="330" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" fill="#f9cc41">SERVIÇOS MIGRADOS</text>
+
+  <!-- Service cards -->
+  <g filter="url(#glow)">
+    <rect x="70" y="350" width="100" height="40" rx="6" fill="#0f3460"/>
+    <text x="120" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">📊 GoAccess</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="185" y="350" width="100" height="40" rx="6" fill="#0f3460"/>
+    <text x="235" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">📋 SARG</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="300" y="350" width="100" height="40" rx="6" fill="#0f3460"/>
+    <text x="350" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">🌀 BIND9</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="415" y="350" width="100" height="40" rx="6" fill="#0f3460"/>
+    <text x="465" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">📈 Zabbix</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="530" y="350" width="100" height="40" rx="6" fill="#0f3460"/>
+    <text x="580" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">💾 Bareos</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="645" y="350" width="85" height="40" rx="6" fill="#0f3460"/>
+    <text x="687" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" fill="white">🔔 Alertas</text>
+  </g>
+
+  <!-- Bottom badges -->
+  <text x="400" y="420" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">ACL por MAC • Bloqueio TeamViewer • Cache 20GB • Dashboard em tempo real</text>
+  <text x="400" y="445" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">Monitoramento RAM • Rotina de backup • Automação com Hermes Agent + OpenCode</text>
+
+  <!-- Decorative line -->
+  <line x1="100" y1="465" x2="700" y2="465" stroke="#f9cc41" stroke-width="1" opacity="0.3"/>
+  <circle cx="400" cy="465" r="3" fill="#f9cc41" opacity="0.5"/>
+</svg>

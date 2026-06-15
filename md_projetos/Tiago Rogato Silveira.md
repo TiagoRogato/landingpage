@@ -154,6 +154,7 @@ Junho de 2011 – Presente
 *   Estruturação de domínio em ambiente NT e de rede, análise de custos de telefonia fixa e móvel, e sistemas de câmeras.
 *   Suporte ao usuário, desenvolvimento WEB e manutenção em sistemas, incluindo integrações.
 *   Desenvolvimento e análises de ambiente ligados à Internet, visando a fluidez das tarefas com segurança das informações.
+*   **Migração de infraestrutura de proxy:** Migração completa do Squid (Debian 8 → Debian 13) com swap de identidade de rede, dashboards GoAccess em tempo real, painel de alertas de segurança, controle TeamViewer por MAC e scripts de automação.
 
 **Analista de Suporte** | Reptec Sistemas
 Setembro de 2009 – Junho de 2011
@@ -251,7 +252,7 @@ Janeiro de 1999 – Janeiro de 2006
 
 ## Habilidades
 
-*   **Gestão de TI:** Governança de TI, Gestão de Projetos, Infraestrutura de TI, Suporte Técnico, Manutenção de Sistemas (Windows, Linux), Segurança da Informação, Redes (LAN, Wi-Fi, VLANs, VPN WireGuard).
+*   **Gestão de TI:** Governança de TI, Gestão de Projetos, Infraestrutura de TI, Suporte Técnico, Manutenção de Sistemas (Windows, Linux), Segurança da Informação, Redes (LAN, Wi-Fi, VLANs, VPN WireGuard), Proxy Squid, GoAccess, Zabbix, Bareos.
 *   **Análise de Dados e BI:** Business Intelligence, Power BI, Excel (Avançado), SQL, Análise de Dados, Governança de Dados.
 *   **Desenvolvimento:** Desenvolvimento WEB, Python, HTML, SQL, GitHub Copilot.
 *   **Liderança e Gestão:** Liderança de Equipes, Gestão do Tempo, Gestão de Pessoas, PNL, Negociação (Modelo Harvard), Comunicação, Escutatória, Gestão para Resultados.
