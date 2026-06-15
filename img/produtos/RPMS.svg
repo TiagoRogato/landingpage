@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#16213e" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)" rx="12"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#fff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#fff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#accent)"/>
+
+  <!-- Header -->
+  <text x="400" y="48" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#f5a623" filter="url(#glow)">RPMS</text>
+  <text x="400" y="72" text-anchor="middle" font-family="monospace" font-size="12" fill="#8899aa">SISTEMA DE CONTROLE DE PRODUÇÃO INDUSTRIAL</text>
+
+  <!-- Dashboard mockup -->
+  <rect x="30" y="90" width="360" height="180" rx="8" fill="url(#card1)" stroke="#2a2a4e" stroke-width="1" filter="url(#shadow)"/>
+
+  <!-- Chart bars -->
+  <text x="50" y="112" font-family="monospace" font-size="11" fill="#f5a623">📊 INDICADORES</text>
+
+  <rect x="55" y="125" width="28" height="60" rx="3" fill="#e94560" opacity="0.8"/>
+  <rect x="90" y="140" width="28" height="45" rx="3" fill="#f5a623" opacity="0.8"/>
+  <rect x="125" y="118" width="28" height="67" rx="3" fill="#0f3460" opacity="0.8"/>
+  <rect x="160" y="135" width="28" height="50" rx="3" fill="#e94560" opacity="0.7"/>
+  <rect x="195" y="120" width="28" height="65" rx="3" fill="#f5a623" opacity="0.7"/>
+
+  <!-- KPI boxes -->
+  <rect x="240" y="118" width="60" height="30" rx="4" fill="#1a3a1a" stroke="#2d6a2d" stroke-width="1"/>
+  <text x="270" y="137" text-anchor="middle" font-family="monospace" font-size="10" fill="#4ade80">94.2%</text>
+  <text x="270" y="150" text-anchor="middle" font-family="monospace" font-size="8" fill="#667">Efic.</text>
+
+  <rect x="310" y="118" width="60" height="30" rx="4" fill="#3a1a1a" stroke="#6a2d2d" stroke-width="1"/>
+  <text x="340" y="137" text-anchor="middle" font-family="monospace" font-size="10" fill="#f87171">12</text>
+  <text x="340" y="150" text-anchor="middle" font-family="monospace" font-size="8" fill="#667">NC</text>
+
+  <!-- Table mockup in dashboard -->
+  <rect x="50" y="170" width="320" height="18" rx="2" fill="#2a2a4e"/>
+  <text x="60" y="183" font-family="monospace" font-size="9" fill="#8899aa">PRODUTO</text>
+  <text x="150" y="183" font-family="monospace" font-size="9" fill="#8899aa">MÁQUINA</text>
+  <text x="240" y="183" font-family="monospace" font-size="9" fill="#8899aa">EFICIÊNCIA</text>
+  <text x="320" y="183" font-family="monospace" font-size="9" fill="#8899aa">NC</text>
+
+  <rect x="50" y="190" width="320" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="60" y="201" font-family="monospace" font-size="8" fill="#ccc">Comp. 15mm</text>
+  <text x="150" y="201" font-family="monospace" font-size="8" fill="#ccc">Prensa #3</text>
+  <text x="243" y="201" font-family="monospace" font-size="8" fill="#4ade80">97.1%</text>
+  <circle cx="323" cy="197" r="4" fill="#4ade80"/>
+
+  <rect x="50" y="206" width="320" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="60" y="217" font-family="monospace" font-size="8" fill="#ccc">Sarraf. 6mm</text>
+  <text x="150" y="217" font-family="monospace" font-size="8" fill="#ccc">Secador #2</text>
+  <text x="243" y="217" font-family="monospace" font-size="8" fill="#f87171">88.5%</text>
+  <circle cx="323" cy="213" r="4" fill="#f87171"/>
+
+  <rect x="50" y="222" width="320" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="60" y="233" font-family="monospace" font-size="8" fill="#ccc">Capa 3mm</text>
+  <text x="150" y="233" font-family="monospace" font-size="8" fill="#ccc">Laminadora</text>
+  <text x="243" y="233" font-family="monospace" font-size="8" fill="#4ade80">99.2%</text>
+  <circle cx="323" cy="229" r="4" fill="#4ade80"/>
+
+  <!-- Right panel - Export / Reports -->
+  <rect x="410" y="90" width="360" height="180" rx="8" fill="url(#card1)" stroke="#2a2a4e" stroke-width="1" filter="url(#shadow)"/>
+
+  <text x="430" y="112" font-family="monospace" font-size="11" fill="#f5a623">📋 RELATÓRIOS & EXPORT</text>
+
+  <!-- PDF icon -->
+  <rect x="430" y="125" width="100" height="50" rx="4" fill="#3a1a1a" stroke="#e94560" stroke-width="1"/>
+  <text x="480" y="145" text-anchor="middle" font-family="monospace" font-size="9" fill="#e94560">📄 PDF</text>
+  <text x="480" y="160" text-anchor="middle" font-family="monospace" font-size="7" fill="#667">Snappy</text>
+
+  <!-- Excel icon -->
+  <rect x="545" y="125" width="100" height="50" rx="4" fill="#1a3a1a" stroke="#2d6a2d" stroke-width="1"/>
+  <text x="595" y="145" text-anchor="middle" font-family="monospace" font-size="9" fill="#4ade80">📊 EXCEL</text>
+  <text x="595" y="160" text-anchor="middle" font-family="monospace" font-size="7" fill="#667">Maatwebsite</text>
+
+  <!-- API icon -->
+  <rect x="660" y="125" width="95" height="50" rx="4" fill="#1a1a3a" stroke="#5b5bea" stroke-width="1"/>
+  <text x="707" y="145" text-anchor="middle" font-family="monospace" font-size="9" fill="#818cf8">🔌 API</text>
+  <text x="707" y="160" text-anchor="middle" font-family="monospace" font-size="7" fill="#667">Passport</text>
+
+  <!-- Log entries -->
+  <text x="430" y="192" font-family="monospace" font-size="10" fill="#8899aa">Últimas exportações:</text>
+
+  <rect x="430" y="200" width="325" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="440" y="211" font-family="monospace" font-size="8" fill="#4ade80">✓</text>
+  <text x="455" y="211" font-family="monospace" font-size="8" fill="#ccc">Carregamento.xlsx</text>
+  <text x="700" y="211" font-family="monospace" font-size="7" fill="#667">11/06</text>
+
+  <rect x="430" y="216" width="325" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="440" y="227" font-family="monospace" font-size="8" fill="#4ade80">✓</text>
+  <text x="455" y="227" font-family="monospace" font-size="8" fill="#ccc">Indicadores_Prensagem.xlsx</text>
+  <text x="700" y="227" font-family="monospace" font-size="7" fill="#667">11/06</text>
+
+  <rect x="430" y="232" width="325" height="14" rx="2" fill="#1f1f3a"/>
+  <text x="440" y="243" font-family="monospace" font-size="8" fill="#f87171">✗</text>
+  <text x="455" y="243" font-family="monospace" font-size="8" fill="#ccc">Relatório_Mensal.pdf</text>
+  <text x="700" y="243" font-family="monospace" font-size="7" fill="#667">—</text>
+
+  <!-- Bottom section - Tech badges -->
+  <rect x="30" y="290" width="740" height="80" rx="8" fill="url(#card1)" stroke="#2a2a4e" stroke-width="1" filter="url(#shadow)"/>
+
+  <text x="400" y="312" text-anchor="middle" font-family="monospace" font-size="11" fill="#f5a623">⚙️ TECNOLOGIAS</text>
+
+  <!-- Badge row -->
+  <rect x="50" y="325" width="95" height="26" rx="13" fill="#3a1a1a" stroke="#e94560" stroke-width="1"/>
+  <text x="97" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#e94560">Laravel 5.4</text>
+
+  <rect x="160" y="325" width="80" height="26" rx="13" fill="#1a1a3a" stroke="#818cf8" stroke-width="1"/>
+  <text x="200" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#818cf8">PHP 7.4</text>
+
+  <rect x="255" y="325" width="90" height="26" rx="13" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="300" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#4ade80">MySQL</text>
+
+  <rect x="360" y="325" width="95" height="26" rx="13" fill="#3a2a1a" stroke="#f5a623" stroke-width="1"/>
+  <text x="407" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#f5a623">Firebird 4.0</text>
+
+  <rect x="470" y="325" width="100" height="26" rx="13" fill="#3a1a1a" stroke="#f87171" stroke-width="1"/>
+  <text x="520" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#f87171">Apache FPM</text>
+
+  <rect x="585" y="325" width="85" height="26" rx="13" fill="#1a1a3a" stroke="#5b5bea" stroke-width="1"/>
+  <text x="627" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#5b5bea">Docker</text>
+
+  <rect x="685" y="325" width="70" height="26" rx="13" fill="#1a3a1a" stroke="#34d399" stroke-width="1"/>
+  <text x="720" y="342" text-anchor="middle" font-family="monospace" font-size="9" fill="#34d399">Bootstrap</text>
+
+  <!-- Stats bar at bottom -->
+  <rect x="30" y="390" width="740" height="80" rx="8" fill="url(#card1)" stroke="#2a2a4e" stroke-width="1" filter="url(#shadow)"/>
+
+  <text x="400" y="412" text-anchor="middle" font-family="monospace" font-size="11" fill="#f5a623">📈 CORREÇÕES E MELHORIAS</text>
+
+  <!-- Stats items -->
+  <text x="100" y="440" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#e94560">63</text>
+  <text x="100" y="458" text-anchor="middle" font-family="monospace" font-size="9" fill="#8899aa">Models migrados</text>
+
+  <text x="250" y="440" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#f5a623">15</text>
+  <text x="250" y="458" text-anchor="middle" font-family="monospace" font-size="9" fill="#8899aa">Controllers auditados</text>
+
+  <text x="400" y="440" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#4ade80">50+</text>
+  <text x="400" y="458" text-anchor="middle" font-family="monospace" font-size="9" fill="#8899aa">Indicadores implementados</text>
+
+  <text x="550" y="440" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#818cf8">624</text>
+  <text x="550" y="458" text-anchor="middle" font-family="monospace" font-size="9" fill="#8899aa">Linhas de documentação</text>
+
+  <text x="700" y="440" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#f87171">0</text>
+  <text x="700" y="458" text-anchor="middle" font-family="monospace" font-size="9" fill="#8899aa">Paradas em produção</text>
+
+  <!-- Footer -->
+  <text x="400" y="490" text-anchor="middle" font-family="monospace" font-size="8" fill="#445" opacity="0.6">Laravel 5.4 · Multi-tenant · Indicadores · Excel/PDF · PHP-FPM · Docker</text>
+</svg>
