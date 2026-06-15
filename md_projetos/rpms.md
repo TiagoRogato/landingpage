@@ -50,7 +50,7 @@ Sistema web para controle e rastreabilidade do processo produtivo de compensados
 - `php -l` aprovado em todos os arquivos
 
 #### Docker / Rede
-- Rota persistente para evitar conflito `docker0` (172.17.0.0/16) com rede remota
+- Rota persistente para evitar conflito `docker0` ([REDE_DOCKER]) com rede remota
 - Configuração em `/etc/rc.local`
 
 ### Resultados

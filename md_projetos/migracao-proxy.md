@@ -19,20 +19,20 @@ Migração completa do serviço de proxy Squid de um servidor legado **Debian 8 
 
 #### 1. Proxy (Squid 6.13)
 - Migração completa de configuração e ACLs do Debian 8 para Debian 13
-- Swap de identidade de rede (IP 172.16.0.1 mantido)
+- Swap de identidade de rede (IP [IP_PROXY] mantido)
 - Listas de controle: liberação/bloqueio por site, MAC, horário
 - Bloqueio de TeamViewer por MAC address (whitelist/blacklist)
 - Configuração de cache (20GB) e desempenho
 - Suporte a interceptação (porta 3129)
 
 #### 2. Dashboard de Relatórios (GoAccess)
-- **http://172.16.0.1/proxy-dashboard/** — Tempo real com estatísticas de acesso
+- **[http://[IP_PROXY]/proxy-dashboard/](http://[IP_PROXY]/proxy-dashboard/)** — Tempo real com estatísticas de acesso
 - Gráficos de sites mais acessados, horários, códigos HTTP
 - Log format customizado para Squid 6.13 (epoch token)
 - Atualização automática via cron
 
 #### 3. Painel de Alertas de Segurança
-- **http://172.16.0.1/proxy-alerts/** — Acessos indevidos e tentativas bloqueadas
+- **[http://[IP_PROXY]/proxy-alerts/](http://[IP_PROXY]/proxy-alerts/)** — Acessos indevidos e tentativas bloqueadas
 - Filtro de HTTP 403 com relatório GoAccess dedicado
 - Nav bar integrada entre dashboard principal e alertas
 - Atualização a cada 2 minutos via cron
